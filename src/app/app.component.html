@@ -1,0 +1,5 @@
+<hello name="{{ name }}"></hello>
+<input style="display: none" type="file" accept="image/jpeg" (change)="onFileUpload(selectFile.files)" #selectFile />
+  <a color="primary" (click)="selectFile.click()">
+    camera
+  </a>
